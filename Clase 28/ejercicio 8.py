@@ -1,6 +1,3 @@
-from multiprocessing.sharedctypes import Value
-
-
 translate_dic = {}
 palabras = input("Introduzca una palabra separada por : y su traducción, escriba pares separados por comas. ej. palabra:traducción: ")
 trasnlate_list = palabras.split(",")
